@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "DOES.Powershell": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+      "workingDirectory": "C:\\"
+    }
+  }
+}

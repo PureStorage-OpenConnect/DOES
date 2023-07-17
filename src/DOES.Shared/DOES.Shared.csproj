@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Version>3.3.4</Version>
+    <Authors>Andrew Sillifant</Authors>
+    <Company>Pure Storage</Company>
+    <Product>Diverse Object Evaluation Suite</Product>
+    <Platforms>x64;AnyCPU</Platforms>
+    <AssemblyVersion>3.3.4.0</AssemblyVersion>
+    <FileVersion>3.3.4.0</FileVersion>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Configuration\MariaDB_Analytics.xml" />
+    <None Remove="Configuration\MSSQL_Analytics.xml" />
+    <None Remove="Configuration\MySQL_Analytics.xml" />
+    <None Remove="Configuration\OracleDB_Analytics.xml" />
+    <None Remove="Configuration\PostgreSQL_Analytics.xml" />
+    <None Remove="Configuration\SAPHANA_Analytics.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Configuration\MariaDB_Analytics.xml" />
+    <EmbeddedResource Include="Configuration\MySQL_Analytics.xml" />
+    <EmbeddedResource Include="Configuration\PostgreSQL_Analytics.xml" />
+    <EmbeddedResource Include="Configuration\SAPHANA_Analytics.xml" />
+    <EmbeddedResource Include="Configuration\OracleDB_Analytics.xml" />
+    <EmbeddedResource Include="Configuration\MSSQL_Analytics.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Installer Assets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="2.2.6" />
+    <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.2" />
+    <PackageReference Include="Npgsql" Version="7.0.4" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.100" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Sap.Data.Hana.Core.v2.1">
+      <HintPath>C:\Temp\DOES-Libraries\HANA-Windows\Sap.Data.Hana.Core.v2.1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

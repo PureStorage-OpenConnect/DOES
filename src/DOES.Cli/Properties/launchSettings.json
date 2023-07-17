@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DOES.Cli": {
+      "commandName": "Project",
+      "commandLineArgs": "--engine data --function add --databasetype Oracle --databasename mypdb.soln.local --randompercentage 30 --schematype WithIndexesLOB --tableamplification 15 --amount 1 --unit Terabytes --username myusr --password Osmium76",
+      "workingDirectory": "C:\\",
+      "hotReloadEnabled": false
+    }
+  }
+}
