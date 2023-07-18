@@ -30,8 +30,8 @@ Depending on OS and revision the RPM package may require that the libopenssl1 pa
 D.O.E.S. can be downloaded and installed for any of the following platforms:
 |Platform|Installation package|
 |--------- |------------------------- |
-|Windows (x64)| [DOES.Setup.Public.msi](https://github.com/PureStorage-OpenConnect/DOES/blob/3.3.4/build/ms-windows/DOES.Setup.Public.msi)
-|RHEL 7,8,9, Centos 7, Rocky Linux 8.5+, Fedora 32+, SLES 12+, SLES 15+, openSUSE Leap 15+|[purestorage_does_public-3.3.4-1.x86_64.rpm](https://github.com/PureStorage-OpenConnect/DOES/blob/3.3.4/build/rpm/purestorage_does_public-3.3.4-1.x86_64.rpm)
+|Windows (x64)| [DOES.Setup.Public.msi](https://github.com/PureStorage-OpenConnect/DOES/raw/3.3.4/build/ms-windows/DOES.Setup.Public.msi)
+|RHEL 7,8,9, Centos 7, Rocky Linux 8.5+, Fedora 32+, SLES 12+, SLES 15+, openSUSE Leap 15+|[purestorage_does_public-3.3.4-1.x86_64.rpm](https://github.com/PureStorage-OpenConnect/DOES/raw/3.3.4/build/rpm/purestorage_does_public-3.3.4-1.x86_64.rpm)
 
 ## Getting Started 
 To interface with and use the functions provided by D.O.E.S either the [PowerShell Cmdlet](https://github.com/PureStorage-OpenConnect/DOES/blob/3.3.4/docs/reference/PowerShell.md) or [D.O.E.S.Cli functions](https://github.com/PureStorage-OpenConnect/DOES/blob/3.3.4/docs/reference/cli.md) command line interfaces can be used. 
