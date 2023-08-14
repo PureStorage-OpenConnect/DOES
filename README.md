@@ -10,6 +10,18 @@ The Diverse Object Evaluation Suite (D.O.E.S) is a cross platform (Windows and L
 - Collate database and platform monitoring data and present analysis in the form of trends or benchmarking. 
 
 D.O.E.S works with existing terminals such as Command Prompt (Windows), Powershell (Windows and Linux), and Bash (Linux) for detailed information on the suite the see the [overview](https://github.com/PureStorage-OpenConnect/DOES/blob/3.3.4/docs/Overview.md). 
+
+# Contribution and Collaboration Requests 
+There are several ways D.O.E.S can be improved. Below are ideas and requests for further development of this toolset :
+- Anisble playbook test scenario examples 
+- Python script test scenario examples 
+- Grafana dashboard with D.O.E.S results 
+- Redis DataEngine support 
+- Db2 DataEngine support
+- Cassandra DataEngine support
+- Elasticsearch DataEngine support
+- SQLite DataEngine support 
+
 # Installation Guide
 
 ## PowerShell
@@ -41,10 +53,10 @@ To get started using D.O.E.S, execute the installer and then open the PowerShell
 To make the DOES.PowerShell commands available for use, execute the following command:
 
 **Microsoft Windows** 
-`Import-Module 'C:\Program Files\Pure Storage\D.O.E.S\DOES.Powershell.dll'`
+`Import-Module 'C:\Program Files\Pure Storage\D.O.E.S\DOES.PowerShell.dll'`
 
 **Linux** 
-`Import-Module /opt/purestorage/does/DOES.Powershell.dll`
+`Import-Module /opt/purestorage/does/DOES.PowerShell.dll`
 
 To see the list of availabile PowerShell CmdLets execute the following command: 
 `Get-Command -Module DOES.PowerShell`
